@@ -88,3 +88,22 @@ backend/dist
 # Ignore editor config and IDE settings (optional)
 .vscode/
 .idea/
+
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Data directory
+data/
+
+# Logs
+*.log
+
+# Node modules
+node_modules/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
