@@ -7,6 +7,7 @@ const path = require('path')
 const { nanoid } = require('nanoid')
 const { DateTime } = require('luxon')
 const { gte } = require('semver')
+require('dotenv').config()
 
 // ----------------------------------------
 // Init WIKI instance

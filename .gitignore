@@ -1,0 +1,109 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+/build/
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+log/
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Production environment
+.env
+.env.local
+.env.*.local
+
+# Build and static files
+/build
+/dist
+/public/static
+/static
+/out
+
+# Testing
+/coverage
+/.nyc_output
+/junit.xml
+/coverage-final.json
+
+# Database
+*.sqlite
+*.sqlite3
+db.sqlite3
+/db.sqlite
+
+# Local development tools
+/.eslintcache
+/.parcel-cache
+/.next
+/.nuxt
+.next/
+.nuxt/
+.sass-cache/
+/.vscode/
+.idea/
+.DS_Store
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.merge_file
+
+# MacOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Images, generated files, and misc
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Build files for frontend
+frontend/node_modules
+frontend/build
+frontend/dist
+frontend/.cache
+
+# Build files for backend
+backend/node_modules
+backend/build
+backend/dist
+
+# Ignore editor config and IDE settings (optional)
+.vscode/
+.idea/
+
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Data directory
+data/
+
+# Logs
+*.log
+
+# Node modules
+node_modules/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
