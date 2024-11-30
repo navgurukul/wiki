@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  wiki:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    image : wiki
+    container_name: wiki-prod-container
+    env_file:
+      - .env
+
+    network_mode: host
+  
